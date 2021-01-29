@@ -119,6 +119,12 @@ main > .tec{
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    
+}
+
+main > .tec > img, input{
+    filter: drop-shadow(1px 2px 3px #585858);
+
 }
 
 .vertical{
