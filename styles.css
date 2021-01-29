@@ -1,7 +1,9 @@
 body {
-    background-color:#0677B8;
+    background: rgb(86,6,190);
+    background: radial-gradient(circle, rgba(86,6,190,1) 0%, rgba(76,21,194,1) 50%, rgba(114,37,245,0.9556197478991597) 100%);
     margin: 0 auto;
-    animation: e1 3s infinite;
+    animation: e1 6s infinite;
+
 }
 
 header{
@@ -15,17 +17,14 @@ header > .imag {
     width: 100%;
     margin: 5px;
     justify-content: space-around;
-  
     display: flex;
 }
 
 header > .imag > img{
     width: 30vh;
     border-radius: 1000px;
-    border: 3px solid  #043450;
+    border: 3px solid  #2d0c92;
     box-shadow: 0px 0px 10px 0px rgb(45, 2, 70);
-    
-    
 }
 
 
@@ -35,25 +34,29 @@ header > .name, .subname, .phrase, .phrase2{
     justify-content: space-around;
 }
 
-header > .name > #hh1, #hh2, #hh3{
-    color: #01446b;
-    text-shadow: rgb(9, 97, 148) 1px 0px 0px, rgb(9, 97, 148) 0.540302px 0.841471px 0px, rgb(9, 97, 148) -0.416147px 0.909297px 0px, rgb(9, 97, 148) -0.989992px 0.14112px 0px, rgb(9, 97, 148) -0.653644px -0.756802px 0px, rgb(9, 97, 148) 0.283662px -0.958924px 0px, rgb(9, 97, 148) 0.96017px -0.279415px 0px;
+header > .name > #hh1, #hh3{
+    color: #f4a500;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 5px #1D036B;
     padding: 5px;
-    border: 2px solid;
-    border-left-color:  #01446B;
+    border-left: 5px solid #2d0c92;
     cursor: default;
 }
 
 header > .name > #hh1{
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
-
-
 }
 
-header > .subname > #hh2{
+header > .subname > #hhh2{
     font-weight: 100;
+    font-size: 30px;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
+    color: #f4a500;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 5px #1D036B;
+    cursor: default;
 }
 
 header > .phrase > #hh2{
@@ -63,11 +66,12 @@ header > .phrase > #hh2{
 
 header > .phrase2 > #hh3{
     font-family: 'Poppins', sans-serif;
-    text-shadow: rgb(2, 39, 61) 1px 0px 0px, rgb(2, 39, 61) 0.540302px 0.841471px 0px, rgb(2, 39, 61) -0.416147px 0.909297px 0px, rgb(2, 39, 61) -0.989992px 0.14112px 0px, rgb(2, 39, 61) -0.653644px -0.756802px 0px, rgb(2, 39, 61) 0.283662px -0.958924px 0px, rgb(2, 39, 61) 0.96017px -0.279415px 0px;
-    width: 70%;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px #1D036B;  
+    width: 85%;
     font-weight: 100;
     text-align: justify;
-    border-left: 10px solid #01446B;
+    border-left: 10px solid #2d0c92;
     
 }
 
@@ -78,38 +82,38 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #B2E3FF; 
+    background: radial-gradient(circle, rgba(255,245,199,1) 0%, rgba(255,240,176,1) 50%, rgba(255,245,199,1) 100%);
     border-radius: 1px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 main > .tecc{
     width: 100%;
-    background-color: #048DDD;
+    background: radial-gradient(circle, rgb(86 6 190) 0%, rgb(86 6 190) 50%, rgb(86 6 190 / 95%) 100%);
     margin: 5px;
     border-radius: 1px;
     padding: 4px;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-size: 23px;
-    color: #01446b;
-    text-shadow: rgb(3, 30, 46) 1px 0px 0px, rgb(3, 30, 46) 0.540302px 0.841471px 0px, rgb(3, 30, 46) -0.416147px 0.909297px 0px, rgb(3, 30, 46) -0.989992px 0.14112px 0px, rgb(3, 30, 46) -0.653644px -0.756802px 0px, rgb(3, 30, 46) 0.283662px -0.958924px 0px, rgb(3, 30, 46) 0.96017px -0.279415px 0px;
-    box-shadow: 1px 2px 6px 1px rgb(45, 2, 70);
-    border: 2px solid #01446B;
+    color: #f4a500;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 5px #1D036B;
+    box-shadow: 1px 2px 4px 1px rgb(45, 2, 70);
+    border: 2px solid rgb(76 21 194);
     cursor: default;
 }
 
 main > .tec{
     width: 30%;
-    background-color: #009DF8;
+    background: radial-gradient(circle, rgba(255,218,54,1) 0%, rgba(248,186,53,1) 50%, rgba(255,218,54,1) 100%);
     margin: 15px;
     border-radius: 1px;
     padding: 5px;
     text-align: center;
     justify-content: space-around;
-    color: #100329;
     box-shadow: 1px 2px 6px 1px rgb(45, 2, 70);
     border: 1px solid #01446B;
     display: flex;
@@ -122,24 +126,25 @@ main > .tec{
 }
 
 @keyframes e1 {
-    from  {background-color:#0677B8;}
-    to {background-color:#0677b8e7;}
-    from {background-color:#0677b8e7;}
-    to  {background-color:#0677B8;}
+    from  {background: radial-gradient(circle, rgba(86,6,190,1) 0%, rgba(76,21,194,1) 50%, rgba(114,37,245,0.9556197478991597) 100%);}
+    to {background: radial-gradient(circle, rgba(86,6,190,0.9500175070028011) 0%, rgba(76,21,194,0.9360119047619048) 50%, rgba(114,37,245,0.9108018207282913) 100%);}
+    from {background: radial-gradient(circle, rgba(86,6,190,0.9500175070028011) 0%, rgba(76,21,194,0.9360119047619048) 50%, rgba(114,37,245,0.9108018207282913) 100%);}
+    to  {background: radial-gradient(circle, rgba(86,6,190,1) 0%, rgba(76,21,194,1) 50%, rgba(114,37,245,0.9556197478991597) 100%);}
   }
+
 
 
   /* FOOTER */
 
   footer{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      flex-direction: row;
-      width: 100%;
-      background-color: #0775b4;
-      margin-top: 5px;
-      border-top: 10px solid #1C6EA4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    background: radial-gradient(circle, rgba(98,0,255,0.9472163865546218) 0%, rgba(114,54,255,1) 50%, rgba(98,0,255,1) 100%);
+    margin-top: 11px;
+    border-top: 4px ​solid rgb(86 6 190 / 75%);
   }
 
   footer > .ffh2{
@@ -148,72 +153,71 @@ main > .tec{
     justify-content: space-around;
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  }
+}
 
   footer > .ffh2 > #fh2{
     font-weight: 600;
-    font-family: 'Share Tech', sans-serif;
-    color: #022438;
-    text-shadow: rgb(9, 97, 148) 1px 0px 0px, rgb(9, 97, 148) 0.540302px 0.841471px 0px, rgb(9, 97, 148) -0.416147px 0.909297px 0px, rgb(9, 97, 148) -0.989992px 0.14112px 0px, rgb(9, 97, 148) -0.653644px -0.756802px 0px, rgb(9, 97, 148) 0.283662px -0.958924px 0px, rgb(9, 97, 148) 0.96017px -0.279415px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-variant: small-caps;
+    color: #f4a500;
+    text-shadow: 0px 0px 5px #1D036B;
     padding: 5px;
-    border-bottom: 15px solid #0e4a72;
+    border-bottom: 15px solid #2d0c92;
     cursor: default;
-  }
+}
 
   footer > .smbg{
-    background-color: #1C6EA4;
+    background: radial-gradient(circle, rgba(98,0,255,0.9472163865546218) 0%, rgba(114,54,255,1) 50%, rgba(98,0,255,1) 100%);
     width: 100%;
     display: flex;
     justify-content: space-around;
-  }
+}
 
   footer > .smbg > .sm{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      flex-wrap: wrap;
-      
-  }
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
 
   footer > .smbg> .sm > .fotm{
-      margin: 3px;
-      padding: 2px;
-      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
- 
-  }
+    margin: 2px;
+    padding: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
 
   footer > .smbg> .sm > .face{
-    background-color: #5C92B2;
+    background-color: #5c92b29d;
     border-left: 7px solid #3b579d;
     border-radius: 0px 3px 3px 0px;
 }
 
 footer > .smbg> .sm > .tele{
-    background-color: #5C92B2;
+    background-color: #5c92b29d;
     border-left: 7px solid #0088cc;
     border-radius: 0px 3px 3px 0px;
 }
 
 footer > .smbg> .sm > .linkedin{
-    background-color: #5C92B2;
+    background-color: #5c92b29d;
     border-left: 7px solid #0078b5;
     border-radius: 0px 3px 3px 0px;
 }
 
 footer > .smbg> .sm > .insta{
-    background-color: #5C92B2;
+    background-color: #5c92b29d;
     border-left: 7px solid #f6370b;
     border-radius: 0px 3px 3px 0px;
 }
 
 footer > .smbg> .sm > .whats{
-    background-color: #5C92B2;
+    background-color: #5c92b29d;
     border-left: 7px solid #25d366;
     border-radius: 0px 3px 3px 0px;
 }
 
 footer > .smbg> .sm > .twit{
-    background-color: #5C92B2;
+    background-color: #5c92b29d;
     border-left: 7px solid #1da1f2;
     border-radius: 0px 3px 3px 0px;
 }
