@@ -1,6 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+  --animate-delay: 0.1s;
+}
+
+
 body {
-    background: rgb(86,6,190);
-    background: radial-gradient(circle, rgba(86,6,190,1) 0%, rgba(76,21,194,1) 50%, rgba(114,37,245,0.9556197478991597) 100%);
+    background: radial-gradient(circle, rgba(98,0,255,0.9472163865546218) 0%, rgba(114,54,255,1) 50%, rgba(98,0,255,1) 100%);
     margin: 0 auto;
     animation: e1 6s infinite;
 
