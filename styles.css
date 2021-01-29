@@ -1,0 +1,219 @@
+body {
+    background-color:#0677B8;
+    margin: 0 auto;
+    animation: e1 3s infinite;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header > .imag {
+    width: 100%;
+    margin: 5px;
+    justify-content: space-around;
+  
+    display: flex;
+}
+
+header > .imag > img{
+    width: 30vh;
+    border-radius: 1000px;
+    border: 3px solid  #043450;
+    box-shadow: 0px 0px 10px 0px rgb(45, 2, 70);
+    
+    
+}
+
+
+header > .name, .subname, .phrase, .phrase2{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > .name > #hh1, #hh2, #hh3{
+    color: #01446b;
+    text-shadow: rgb(9, 97, 148) 1px 0px 0px, rgb(9, 97, 148) 0.540302px 0.841471px 0px, rgb(9, 97, 148) -0.416147px 0.909297px 0px, rgb(9, 97, 148) -0.989992px 0.14112px 0px, rgb(9, 97, 148) -0.653644px -0.756802px 0px, rgb(9, 97, 148) 0.283662px -0.958924px 0px, rgb(9, 97, 148) 0.96017px -0.279415px 0px;
+    padding: 5px;
+    border: 2px solid;
+    border-left-color:  #01446B;
+    cursor: default;
+}
+
+header > .name > #hh1{
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+header > .subname > #hh2{
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
+
+header > .phrase > #hh2{
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
+
+header > .phrase2 > #hh3{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: rgb(2, 39, 61) 1px 0px 0px, rgb(2, 39, 61) 0.540302px 0.841471px 0px, rgb(2, 39, 61) -0.416147px 0.909297px 0px, rgb(2, 39, 61) -0.989992px 0.14112px 0px, rgb(2, 39, 61) -0.653644px -0.756802px 0px, rgb(2, 39, 61) 0.283662px -0.958924px 0px, rgb(2, 39, 61) 0.96017px -0.279415px 0px;
+    width: 70%;
+    font-weight: 100;
+    text-align: justify;
+    border-left: 10px solid #01446B;
+    
+}
+
+main{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #B2E3FF; 
+    border-radius: 1px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+main > .tecc{
+    width: 100%;
+    background-color: #048DDD;
+    margin: 5px;
+    border-radius: 1px;
+    padding: 4px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 23px;
+    color: #01446b;
+    text-shadow: rgb(3, 30, 46) 1px 0px 0px, rgb(3, 30, 46) 0.540302px 0.841471px 0px, rgb(3, 30, 46) -0.416147px 0.909297px 0px, rgb(3, 30, 46) -0.989992px 0.14112px 0px, rgb(3, 30, 46) -0.653644px -0.756802px 0px, rgb(3, 30, 46) 0.283662px -0.958924px 0px, rgb(3, 30, 46) 0.96017px -0.279415px 0px;
+    box-shadow: 1px 2px 6px 1px rgb(45, 2, 70);
+    border: 2px solid #01446B;
+    cursor: default;
+}
+
+main > .tec{
+    width: 30%;
+    background-color: #009DF8;
+    margin: 15px;
+    border-radius: 1px;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-around;
+    color: #100329;
+    box-shadow: 1px 2px 6px 1px rgb(45, 2, 70);
+    border: 1px solid #01446B;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.vertical{
+    width: 80%;
+}
+
+@keyframes e1 {
+    from  {background-color:#0677B8;}
+    to {background-color:#0677b8e7;}
+    from {background-color:#0677b8e7;}
+    to  {background-color:#0677B8;}
+  }
+
+
+  /* FOOTER */
+
+  footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: row;
+      width: 100%;
+      background-color: #0775b4;
+      margin-top: 5px;
+      border-top: 10px solid #1C6EA4;
+  }
+
+  footer > .ffh2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  }
+
+  footer > .ffh2 > #fh2{
+    font-weight: 600;
+    font-family: 'Share Tech', sans-serif;
+    color: #022438;
+    text-shadow: rgb(9, 97, 148) 1px 0px 0px, rgb(9, 97, 148) 0.540302px 0.841471px 0px, rgb(9, 97, 148) -0.416147px 0.909297px 0px, rgb(9, 97, 148) -0.989992px 0.14112px 0px, rgb(9, 97, 148) -0.653644px -0.756802px 0px, rgb(9, 97, 148) 0.283662px -0.958924px 0px, rgb(9, 97, 148) 0.96017px -0.279415px 0px;
+    padding: 5px;
+    border-bottom: 15px solid #0e4a72;
+    cursor: default;
+  }
+
+  footer > .smbg{
+    background-color: #1C6EA4;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer > .smbg > .sm{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+  }
+
+  footer > .smbg> .sm > .fotm{
+      margin: 3px;
+      padding: 2px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+ 
+  }
+
+  footer > .smbg> .sm > .face{
+    background-color: #5C92B2;
+    border-left: 7px solid #3b579d;
+    border-radius: 0px 3px 3px 0px;
+}
+
+footer > .smbg> .sm > .tele{
+    background-color: #5C92B2;
+    border-left: 7px solid #0088cc;
+    border-radius: 0px 3px 3px 0px;
+}
+
+footer > .smbg> .sm > .linkedin{
+    background-color: #5C92B2;
+    border-left: 7px solid #0078b5;
+    border-radius: 0px 3px 3px 0px;
+}
+
+footer > .smbg> .sm > .insta{
+    background-color: #5C92B2;
+    border-left: 7px solid #f6370b;
+    border-radius: 0px 3px 3px 0px;
+}
+
+footer > .smbg> .sm > .whats{
+    background-color: #5C92B2;
+    border-left: 7px solid #25d366;
+    border-radius: 0px 3px 3px 0px;
+}
+
+footer > .smbg> .sm > .twit{
+    background-color: #5C92B2;
+    border-left: 7px solid #1da1f2;
+    border-radius: 0px 3px 3px 0px;
+}
