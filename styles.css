@@ -67,14 +67,10 @@ header > .subname > #hhh2{
     cursor: default;
 }
 
-
-
 header > .phrase > #hh2{
     font-weight: 100;
     font-family: 'Raleway', sans-serif;
 }
-
-
 
 main{
   width: 100%;
@@ -101,32 +97,58 @@ main > .mae{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    background: radial-gradient(circle, rgb(76,21,194,1) 50%, rgba(76,21,194,1) 50%, rgba(76,21,194,1) 50%);
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 main > .mae > .phrase2{
   background: radial-gradient(circle, rgb(76,21,194,1) 50%, rgba(76,21,194,1) 50%, rgba(76,21,194,1) 50%);
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
   text-shadow: 0px 0px 5px #1D036B;  
   width: 100%;
-  padding: 15px;
-  font-weight: 100;
+
   text-align: justify;
-  border-top: 10px solid #2d0c92;  
   color: #f4a500;
   font-variant: small-caps;
   cursor: default;
   display: flex;
   margin-bottom: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 4px 1px rgb(45, 2, 70);
+}
+main > .mae > .phrase2 > .aboutme, .story{
+  width: 100%;
+  text-align: center;
 }
 
-main > .mae > .tecc{
+main > .mae > .phrase2 > .aboutme{
+  background: radial-gradient(circle, rgb(86 6 190) 0%, rgb(86 6 190) 50%, rgb(86 6 190 / 95%) 100%);
+  margin: 0;
+  border: 2px solid rgb(76 21 194);
+  cursor: default;
+  font-size: 25px;
+  box-shadow: 1px 2px 4px 1px rgb(45, 2, 70);
+  font-weight: 300;
+}
+
+main > .mae > .phrase2 > .story{
+  font-size: 16px;
+  font-weight: 100;
+}
+
+main > .mae > .color{
+  background: radial-gradient(circle, rgb(76,21,194,1) 50%, rgba(76,21,194,1) 50%, rgba(76,21,194,1) 50%);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0px 0px 4px 1px rgb(45, 2, 70);
+}
+
+main > .mae > .color >.tecc{
     width: 100%;
     background: radial-gradient(circle, rgb(86 6 190) 0%, rgb(86 6 190) 50%, rgb(86 6 190 / 95%) 100%);
-    margin: 5px;
-    border-radius: 1px;
+    margin: 0;
     padding: 4px;
     text-align: center;
     justify-content: space-around;
@@ -141,7 +163,7 @@ main > .mae > .tecc{
     cursor: default;
 }
 
-main > .mae > .tec{
+main > .mae >.color .tec{
     width: 30%;
     background: radial-gradient(circle, rgba(255,218,54,1) 0%, rgba(248,186,53,1) 50%, rgba(255,218,54,1) 100%);
     margin: 15px;
@@ -157,7 +179,7 @@ main > .mae > .tec{
     
 }
 
-main > .mae > .tec > img, input{
+main > .mae > .color > .tec > img, input{
     filter: drop-shadow(1px 2px 3px #585858);
 
 }
