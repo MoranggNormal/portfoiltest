@@ -348,3 +348,20 @@ footer > .smbg> .sm > .twit{
     }
   }
   
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle, #9061d6 14%,#9066cc 64%);
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 3px #948888;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: radial-gradient(circle, #9061D6 14%,#9066cc 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #edede6;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 3px #948888;
+   }
